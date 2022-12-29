@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "test:1": "cypress run --record --key 0983a47f-b308-482c-a0e2-ea94ce39bf20",
     "test:dev": "cypress open --browser chrome",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +13,13 @@
   "dependencies": {
     "cypress": "^10.11.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galinade/aggsypr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/galinade/aggsypr/issues"
+  },
+  "homepage": "https://github.com/galinade/aggsypr#readme",
   "description": ""
 }

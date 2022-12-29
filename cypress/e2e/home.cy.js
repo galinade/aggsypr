@@ -52,3 +52,9 @@ it('Wrong password', () => {
     cy.get(".acceptin-button").click();
     cy.contains("Вы выбрали билеты:").should("be.visible");
   });
+  const PAGE_NAV__DAY_SELECTOR = '.page-nav__day';
+  it('Should show correct number of days111', () => {
+    cy.visit('/');
+    cy.get(PAGE_NAV__DAY_SELECTOR).should("have.length", 7);
+  });
+  
